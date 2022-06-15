@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+          <script type="text/JavaScript">
+                   <!--
+                      function AutoRefresh( t ) {
+                         setTimeout("location.reload(true);", t);
+                      }
+                   //-->
+                </script>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="icon" href="../img_applied3s/favicon.JPG">
+    <title>JS-Applied 3s</title>
+
+    <link rel="stylesheet" href="../css_applied3s/css_applied3s.css">
+  </head>
+  <body>
+    onload = "JavaScript:AutoRefresh(5000)";
+    <header class="cl_white_f1">
+      <!--Page Navigation 🚩🚩-->
+      <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages_applied3s/pagecss.html">HTML Page</a></li>
+        <li><a href="../pages_applied3s/pagecss.html">CSS Page</a></li>
+      </ul>
+      </nav>
+      <h1>JS Page</h1>
+    </header>
+    <main>
+      <!--JavaScript Questions 🚩🚩-->
+      <!--Level 1 🚩🚩-->
+      <h1>Level 1</h1>
+            <button class="ft_20 cl_js wd_100 ta_left" id="Q001" onclick="document.getElementById('A001').style.display='block'">Q001) What script replaces text?</button>
+  <div id="A001" class="dis_none  ft_20 cl_js_a">   
+  <p class="mar_0">A001) document.getElementById('').innerHTML''"</p>
+  <button onclick="document.getElementById('A001').style.display='none'">hide</button>
+  </div>
+  <br>
+  <br>
+  <button class="ft_20 cl_js wd_100 ta_left" onclick="document.getElementById('A002').style.display='block'">Q002) What script will change the src attribute of an &ltimg&gt tag?</button>
+    <div class="dis_none cl_js_a ft_20" id="A002">
+      <p class="mar_0">A002) "document.getElementById('').src=</p>
+      <button onclick="document.getElementById('A002').style.display='none'">Hide</button>
+    </div>
+    <br>
+    <br>
+    <button class="cl_js wd_100 ta_left ft_20" onclick="document.getElementById('A003').style.display='block'">Q003) What script can change the font size? </button>
+    <div id="A003" class="dis_none ft_20 cl_js_a">
+      <p class="mar_0">A003) "document.getElementById('').style.fontSize=''"</p>
+      <button onclick="document.getElementById('A003').style.display='none'">Hide</button>
+    </div>    
+    <!--Level 2-->
+    <h2>Level 2</h2>
+    <!--Level 3-->
+    <h2>Level 3</h2>
+    <!--Level 4-->
+    <h2>Level 4</h2>
+    <!--Level 5-->
+    <h2>Level 5</h2>
+    <br>
+<br>
+      <!--.innerHTML 🚩🚩-->
+      <h4 id="answer_01">1) What are the 3 computer languages a front end-developer must first learn?</h4>
+      <button onclick='document.getElementById("answer_01").innerHTML = "HTML, CSS, and JS"'>Answer</button>
+      <button onclick="document.getElementById('answer_01').innerHTML = '1) What are the 3 computer languages a front end-developer must first learn?'">Reset</button>
+      <br>
+
+      <!--.src 🚩🚩-->
+      <img id="image_test" src="../img_applied3s/favicon.JPG" alt="Image Test" style="width:300px">
+<br>
+      <button onclick="document.getElementById('image_test').src='../img_applied3s/test_image.png'">Change Image</button>
+      <button onclick="document.getElementById('image_test').src='../img_applied3s/favicon.JPG'">Reset Image</button>
+      <br>
+      <br>
+    <!--.style.fontSize 🚩🚩-->
+      <h4 id="answer_02">2)Can JavaScript change font size?</h4>
+      <button onclick="document.getElementById('answer_02').innerHTML = 'Yes'">Answer</button>
+      <button onclick="document.getElementById('answer_02').innerHTML = '2)Can JavaScript change font size?'">Reset</button>
+<br>
+<br>
+      <button onclick="document.getElementById('answer_02').style.fontSize='35px'">Increase Font Size</button>
+      <button onclick="document.getElementById('answer_02').style.fontSize='16px'">Reset</button>
+    
+    </main>
+
+  </body>
+</html>
+

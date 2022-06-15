@@ -1,0 +1,51 @@
+.cl_white_f1
+{
+  background-color: #f1f1f1;
+}
+.di_inline
+{
+  display: inline;
+}
+header li
+{
+  display: inline;
+  padding-left: 5px;
+}
+header
+{
+  text-align: center;
+}
+.cl_js
+{
+  background-color: black;
+  color: yellow;
+}
+.ft_20
+{
+  font-size: 20px;
+}
+.dis_none
+{
+  display: none;
+}
+.mar_0
+{
+  margin: 0;
+}
+.wd_100
+{
+  width:100%
+}
+.fl_left
+{
+  float:left;
+}
+.cl_js_a
+{
+  background-color: yellow;
+  color:black;
+}
+.ta_left
+{
+text-align: left;
+}
